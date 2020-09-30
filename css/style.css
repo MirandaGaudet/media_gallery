@@ -1,0 +1,51 @@
+
+:root{
+  --prime: #222;
+  --text: #333;
+  --rev-text: #EEE;
+  --accent: #2E9CCA;
+  --bg:#EEE;
+}
+body{
+  padding: .25rem;
+  font-size: 18px;
+  color: var(--text);
+  background-color: var(--prime);
+  width: 98%;
+  margin: 0 auto;
+}
+i.fas {
+  padding: 0 .33em;
+}
+.topnav {
+  margin-top: -.25rem;
+  padding-bottom: .5rem;
+  background-color: var(--prime);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  z-index: 1000;
+  width: 100%;
+}
+a.nav-item {
+position: relative;
+top: 4px;
+text-align: center;
+padding: .75em 0;
+margin: auto 0;
+color: var(--rev-text);
+transition: color 250ms ease-in-out;
+}
+a.nav-item:hover {
+color: var(--accent);
+cursor: pointer;
+}
+.label {
+  font-size: 1rem;
+}
+.nav-item.trigram{
+  display: none;
+  text-decoration: none;
+  font-size: 2rem;
+}
