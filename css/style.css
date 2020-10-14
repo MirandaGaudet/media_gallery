@@ -67,9 +67,18 @@ cursor: pointer;
 }
 .slideshow {
   background-color: var(--bg);
-  padding: 1em;
-  margin: 5em;
+width: 100%;
+  margin-bottom: 1em;
   position: 1em;
+
+}
+.slideshow img {
+  width: 100%;
+}
+.slideshow-wrapper {
+  position: relative;
+  max-width: 1440px;
+  margin: auto;
 }
 .slideshow-wrapper img {
   position: relative;
