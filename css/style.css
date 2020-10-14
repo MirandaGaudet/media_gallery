@@ -28,7 +28,7 @@ i.fas {
   z-index: 1000;
   width: 100%;
 }
-a.nav-item {
+a.nav-item. {
 position: relative;
 top: 4px;
 text-align: center;
@@ -68,7 +68,8 @@ cursor: pointer;
 .slideshow {
   background-color: var(--bg);
   padding: 1em;
-  position: relative;
+  margin: 5em;
+  position: 1em;
 }
 .slideshow-wrapper img {
   position: relative;
