@@ -39,7 +39,7 @@ color: var(--rev-text);
 transition: color 250ms ease-in-out;
 }
 a.nav-item:hover {
-color: var(--accent);
+color: var(--bg);
 cursor: pointer;
 }
 .label {
@@ -49,7 +49,7 @@ cursor: pointer;
   display: none;
   text-decoration: none;
   font-size: 2rem;
-  color: var(--rev-text);
+  color: var(--text);
 }
 @media screen and (max-width: 767px) {
   .topnav a, .topnav span {display: none;}
