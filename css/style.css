@@ -19,7 +19,8 @@ i.fas {
 }
 .topnav {
   margin-top: -.25rem;
-  padding-bottom: .5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   background-color: var(--prime);
   display: flex;
   flex-direction: column;
@@ -48,10 +49,11 @@ cursor: pointer;
   display: none;
   text-decoration: none;
   font-size: 2rem;
+  color: var(--rev-text);
 }
 @media screen and (max-width: 767px) {
   .topnav a, .topnav span {display: none;}
-  .topnav a.trigram {display:inherit; position:absolute; right:4%; font-size:2em; padding: .25em; background:var(--prime);}
+  .topnav a.trigram {display:inherit; position:absolute; right:4%; font-size:2em;  margin-top: 2em; padding: .1em; background:var(--prime);}
 }
 @media screen and (max-width: 767px) {
 .topnav.responsive {align-items: center;}
@@ -119,7 +121,7 @@ width: 100%;
   text-align: center;
 }
 .numberof {
-color:#f2f2f2
+color:#f2f2f2;
 font-size: 12px;
 padding: 8px 12px;
 position: absolute;
@@ -159,7 +161,7 @@ top: 0;
   to {opacity: 1}
 }
 @media only screen and (max-width: 767px) {
-  .sideshow {display: none;}
+  .slideshow {display: none;}
 }
 .main-grid {
   margin-top: 3.5rem;
@@ -174,6 +176,7 @@ top: 0;
 @media screen and (min-width: 768px) {
   body {width: 94%;}
   .main-grid {grid-template-columns: repeat(3, 1fr);}
+
 }
 @media screen and (min-width: 990px) {
   body {width: 92%;}
