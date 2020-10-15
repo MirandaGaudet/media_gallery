@@ -316,12 +316,6 @@ button.card-more:hover, button.card-more:active {
 footer {
   background-color: var(--prime);
   padding: .25rem;
-  color: var(--rev-text);
+  color: var(--text);
   text-align: center;
-}
-footer a {
-  color: var(--rev-text);
-}
-footer a:hover {
-  color: var(--rev-accent);
 }
